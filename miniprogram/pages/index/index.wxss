@@ -1,0 +1,66 @@
+/**index.wxss**/
+page {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main-content {
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    padding: 100px 0 60px 0;
+}
+
+.beauty-button {
+    box-sizing: border-box;
+    margin: 0 20px;
+    width: 690rpx;
+}
+
+.help-button {
+    margin: 60rpx;
+    color: #36abab;
+    text-decoration: underline;
+}
+
+
+.result-operation {
+    width: 690rpx;
+    margin: 0 30rpx 30rpx;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-operation button {
+    margin: 0;
+    width: 300rpx;
+}
+
+.result-operation .return-button {
+    color: #36abab;
+    background-color: #fff;
+    border: 1px solid #36abab;
+}
+
+.error-msg {
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 8px 15px;
+    color: #f5222d;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum';
+    position: relative;
+    word-wrap: break-word;
+    border-radius: 4px;
+    background-color: #fff1f0;
+    border: 1px solid #ffa39e;
+}
